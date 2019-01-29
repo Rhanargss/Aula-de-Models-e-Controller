@@ -52,7 +52,7 @@ class ClientesController extends Controller{
         return response()->json([$cliente]);
     }
 
-    //Deleta algum cadastro//
+    //Deleta algum cadastro// 
 
     public function delete($id){
         Cliente::destroy($id);

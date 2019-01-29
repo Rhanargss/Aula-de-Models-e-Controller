@@ -7,7 +7,7 @@ use App\Livros;
 
 class LivrosController extends Controller{
     
-    // Cadastra um cliente //
+    // Cadastra um livro //
 
     public function create (Request $request){
         $livros = new Livros;
@@ -62,7 +62,7 @@ class LivrosController extends Controller{
 
     }
 
-    // Deleta algum cadastro //
+    // Deleta algum cadastro // 
 
     public function delete($id){
         Livros::destroy($id);
@@ -70,5 +70,5 @@ class LivrosController extends Controller{
 
     }
 
-}
+} 
 
